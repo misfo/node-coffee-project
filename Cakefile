@@ -1,6 +1,6 @@
-fs            = require 'fs'
-{print}       = require 'sys'
-{spawn, exec} = require 'child_process'
+fs      = require 'fs'
+{print} = require 'sys'
+{spawn} = require 'child_process'
 
 build = (watch, callback) ->
   if typeof watch is 'function'
